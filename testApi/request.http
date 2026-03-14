@@ -1,0 +1,38 @@
+
+@baseUrl = http://localhost:8080/productos
+
+### GET productos
+GET {{baseUrl}}
+
+
+### GET Productos por usando una id
+GET {{baseUrl}}/3
+
+
+### post Productos, creando peticion
+POST  {{baseUrl}}
+Content-Type: application/json
+
+{
+    "nombre": "zapatilas",
+    "descripcion": "zapatillas nike modelo rojo",
+    "stock": 50,
+    "precio": 20000
+}
+
+
+###PUT actualizar producto usando una id
+
+PUT {{baseUrl}}/3
+Content-Type: application/json
+
+{
+    "nombre": "zapatilas",
+    "descripcion": "zapatillas nike modelo rojo",
+    "stock": 50,
+    "precio": 1000000.500
+
+}
+
+### DELETE elimina un producto segun la id
+DELETE {{baseUrl}}/3
