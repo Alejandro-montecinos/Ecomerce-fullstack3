@@ -1,10 +1,10 @@
-package com.example.usuario_service;
+package com.example.m_pedidos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UsuarioServiceApplicationTests {
+class MPedidosApplicationTests {
 
 	@Test
 	void contextLoads() {
